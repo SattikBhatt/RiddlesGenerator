@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    display:flex;
+    justify-content: center;
+    padding:3vh;
+    width: 50%;
+height: 26.22px;
+top: 20px;
+left: 20px;
+margin-top:0.4vh;
+/* margin-left:vw; */
+}
+.name{
+    margin-left:2vw;
+    color:white;
+    
+    font-size:100%;
+    display: flex;
+    width:300vw;
+    margin-top:0.5vh;
+}
+.troll{
+    margin-top:-2vh;
+    height:8vh;
+}
+.title{
+    width:50vw;
+    height: 10vh;
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+margin-top:2vh;
+display: flex;
+justify-content: center;
+padding-bottom:2vh;
+margin-left:25vw;
+text-transform:uppercase;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.riddlecontainer{
+    /* width:250px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    width:70vw;
+    margin-top:10vh;
+    padding:4vh;
+    background: yellow;
+    border-radius:9px;
+    font-size:2vh;
+    font-weight:bold;
+}
+.answers{
+    background-color:blue;
+    width:70vw;
+    margin-top:2vh;
+    padding:4vh;
+    border-radius:18px;
+    font-weight:bold;
+    color:white;
+    align-items: center;
+}
+.answer{
+    
+   color:white;
+   padding:2vh;
+   border-radius:18px;
+   font-weight:bold;
+   border:none; 
+   
+}
+.riddlechange{
+    padding:2vh;
+    color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+    background:linear-gradient(90deg,#31C 10.18%, red 100%);
+    
+}

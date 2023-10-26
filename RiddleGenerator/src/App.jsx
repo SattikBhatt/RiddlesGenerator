@@ -17,11 +17,10 @@ function Krsna()
     }
     
         React.useEffect(()=>{
-            // fetch('https://api.api-ninjas.com/v1/quotes?category=https://api.api-ninjas.com/v1/quotes?category=fitness').then(data=>data.json).then(data=>)
-    // Define your API key
+           
     const apiKey = 'FoAGQHHxygYj1P0GjVW6SA==ycYMGUokY92t3Aun';
 
-    // Define the URL and headers for the fetch request
+    
     const url = 'https://api.api-ninjas.com/v1/riddles';
     const headers = {
       'X-Api-Key': apiKey,

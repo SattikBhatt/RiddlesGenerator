@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title.jsx'
-import '../Meme.css'
+import '../riddles.css'
 function Krsna()
 {
     var  [q,c]=React.useState([]);
